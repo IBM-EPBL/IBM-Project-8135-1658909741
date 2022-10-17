@@ -1,0 +1,62 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color:#648381;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgba(255, 255, 255, 0);
+	padding: 20px;
+
+}
+
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.subsub{
+	margin-bottom: 0.75rem;
+}
+.sub1{
+	margin-top: 0.75rem;
+}
+.sub1,.sub2{
+	margin-bottom: 0.75rem;
+}
+.prosub{
+	margin-top: .765rem;
+	margin-bottom: .75rem;
+}
+.coco{
+	margin: 0.765rem;
+}
+.exex{
+	margin: 0.765rem;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
